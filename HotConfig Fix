@@ -1,0 +1,5 @@
+SNMBTC_bought_price = (go to your excange, look up the log when you buy it, then total paid/numbers of coins)
+to get something like this  SNMBTC_bought_price = 0.00003765
+put that line then in hotconfig. hit save a wait a bit until the bot say's in the cmd that he changed the average price.(edited)
+
+
