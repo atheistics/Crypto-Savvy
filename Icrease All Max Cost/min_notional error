@@ -1,0 +1,9 @@
+It may seem that binance has increased their minimum amount needed to buy.
+
+Please change your BTC  in PAIRS.properties
+ALL_max_cost = 0.0022
+
+also in configuration.properties
+BTC_dust = 0.00205
+
+do this if you are receiving the min_notional error
