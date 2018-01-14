@@ -1,11 +1,94 @@
+
+
 ########################################################################################
 ###                       CRYPTO SAVVY PROFIT TRAILER BOT SETTINGS                   ###
 ###                   https://www.facebook.com/groups/378404799274017                ###
 ###                   Tip LTC To: MQkaF9Sy5bEPmXkYvekSkdjvUFziexUUsu                 ###
 ###                   Tip BTC To: 3NiUW4mfYg5tM1E8XQvoGVXGkJ2jBYTad9                 ###
-###	              Tip ETH To: 0x8da7Ab0a6262b5C7ff3618Eee7B508f1f8c0772D         ###
+###	                  Tip ETH To: 0x8da7Ab0a6262b5C7ff3618Eee7B508f1f8c0772D         ###
 ###                          Discord https://discord.gg/FPvb3Y2                      ###
 ###                     Telegram https://t.me/joinchat/Fv0GyUqSweuzZhnRQMqEMA        ###
 ###                  I also offer setup and 1on1 guidence for 0.01 BTC If Needed     ###
 ########################################################################################
 ########################################################################################
+
+
+WHAT IS BITTELLER?
+BitTeller is the World's most affordable Bitcoin ATM.
+
+How Does BitTeller Work?
+The ATM owner loads the BitTeller's wallet to a desired amount.  He can then put the BitTeller in his place of business, home, or meeting hall.  It is then ready for friends, customers, or anyone to purchase BTC with cash.  At the end of the day, the owner can then remove bills and reload the BTC if desired.  The owner can be alerted via email notifications for issues such as a low balance, system errors, and daily status reports.  
+
+The BitTeller is very portable, which makes it easy to carry around to different locations. We recommend that the machine be kept in a safe location and be monitored.  In addition, we recommend securing the unit to something to deter theft.  We have optional cable locks that can be purchased, or you can easily remove the two rear rubber feet and bolt to a counter.
+
+BitTeller updates prices every 2 minutes from Coinbase to make sure to keep BTC pricing accurate.  BitTeller allows ATM owners to adjust the pricing to earn money on every BTC purchase.
+
+BitTeller is Perfect for:
+College Bitcoin groups, local Bitcoin meetups, coffee shops, retail stores, restaurants or for your man cave.  Buy a BitTeller to enable your customers to buy Bitcoin at your location or just to impress your friends with your new Bitcoin ATM.
+
+What Cryptocurrency Does BitTeller Accept?
+BitTeller is currently configured to process Bitcoin.
+
+Blockchain Inovations can build a custom unit for any alt-coin that supports or provides a bitcoinj compatible version of their wallet.  This includes nearly any mainstream alt-coin including: LTC, DOGE, DASH, LSK, ETH, BOX, ION, XEM, FCT, XRP, NXT, PPC, XLM, and more.
+
+Currently BitTeller version 1.0 only accepts one coin, but version 2.0 will include multiple coin support.  All BitTeller v1, are fully upgradeable to v2.0 software updates when that release is available.  If you want to order a BitTeller with a coin other than Bitcoin, please contact support before ordering to ensure we can complete your order.
+
+TECHNICAL SPECIFICATIONS:
+Bill Acceptor
+500 Bill stacker
+Greater than 95% acceptance rate (including second-time insertion of rejected bill)
+Approximately 20 bills per minute
+Model 4x accepts $1-$20 bills
+Model 6x accepts $1 - $100 bills
+Case Physical Dimensions*
+H: 11.575" ~ 11.5"
+W: 6.213"~ 6.25"
+D: 7.5"
+*Not including lock, bill receiver, or rubber feet which may extrude a bit
+
+Screen Size:
+7" IPS display (171 ppi / 1024 x 600)
+
+Processor
+1.3 GHz quad-core processor
+
+Power Requirements
+110v AC Power Connection
+
+Connectivity Requirements
+Wifi is required
+
+Admin Options
+Email Notifications for: Low Balance, System Errors, Daily Status
+Configurable Pricing
+Configurable Purchase Amounts
+Owner Information Configuration
+Private Key Backup
+Device Update Management
+Wallet Deposit and Balance Management
+Transaction History
+Application Password Management
+Coin Type Selection
+Security Features
+Steel Case
+Locking Case
+Optional Cable Lock (+ $30)
+Other Options
+We are happy to consider all customizations and additions to the BitTeller.  If you have any suggestions, contact support and we will let you know availability, timeline, and a price quote.  
+
+Non U.S. Currencies (Available for select currencies)
+Steel Stand
+(We recommend visiting a local fabrication shop for this to offset the cost of shipping)
+Cable Lock for security (now available)
+Language packs (Available on the A6 version)
+3G Hotspot (Please contact your region's cell service provider) 
+Bulk Pricing & Management
+
+Pricing is available for purchases of 3 or more machines
+Custom fabrication is available for purchases of 50 or more machines
+Machines can be white labeled to your brand for resale
+Bulk purchases are only available after your first unit is purchased, delivered and operational.
+
+
+Orders on hold 
+With the increased interest in Cryptocurrencies and demand for ATM's we have decided to expand our current production facilities.   We have paused all sales until January 12-16 2018. 
