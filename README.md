@@ -10,6 +10,6 @@ Crypto Savvy PT Assist
 ###					  Tip ETH To: 0x8da7Ab0a6262b5C7ff3618Eee7B508f1f8c0772D         ###
 ###                          Discord https://discord.gg/FPvb3Y2                      ###
 ###                     Telegram https://t.me/joinchat/Fv0GyUqSweuzZhnRQMqEMA        ###
-###                  I also offer setup and 1on1 guidence for 0.02 BTC If Needed     ###
+###                  I also offer setup and 1on1 guidence for 0.01 BTC If Needed     ###
 ########################################################################################
 ########################################################################################
