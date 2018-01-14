@@ -1,6 +1,7 @@
 # Crypto-Savvy
 Crypto Savvy PT Assist
 
+                    I AM NOT A FINANCIAL ADVISOR! DO NOT LISTEN TO ME!
 
 ########################################################################################
 ###                       CRYPTO SAVVY PROFIT TRAILER BOT SETTINGS                   ###
@@ -13,3 +14,5 @@ Crypto Savvy PT Assist
 ###                  I also offer setup and 1on1 guidence for 0.01 BTC If Needed     ###
 ########################################################################################
 ########################################################################################
+                    
+                     I AM NOT A FINANCIAL ADVISOR! DO NOT LISTEN TO ME!
