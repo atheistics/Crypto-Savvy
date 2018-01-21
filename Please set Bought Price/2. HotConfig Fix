@@ -3,7 +3,7 @@ TRIGBTC_bought_price =
 (Go to your excange, look up the log when you bought it, then total paid/numbers of coins)
 to get something like this:
 
-DLTGBTC_bought_price = 0.00006700
+CMTBTC_bought_price = 0.00026700
 
 Put that line into Hotconfig.
 
