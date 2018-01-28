@@ -1,0 +1,844 @@
+2018-01-22 11:11:56.465 -05:00 [Information] Starting PT Feeder (no longer a mouthful)
+2018-01-22 11:11:56.535 -05:00 [Information] Massive thanks to Elroy and team for Profit Trailer. https://github.com/taniman/profit-trailer
+2018-01-22 11:11:56.536 -05:00 [Information] Running from C:\Users\Administrator\Desktop\PT FEEDER
+2018-01-22 11:11:56.574 -05:00 [Information] Checking for license information
+2018-01-22 11:11:56.615 -05:00 [Information] Polo setup detected. Will create .properties files in C:\pt\vps\pt\polo\trading
+2018-01-22 11:11:56.621 -05:00 [Error] Could not read api key to validate license: Could not find a part of the path 'C:\pt\vps\pt\polo\application.properties'.
+2018-01-22 11:11:56.629 -05:00 [Fatal] An error occurred starting the application
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (One or more errors occurred. (Object reference not set to an instance of an object.))) ---> System.AggregateException: One or more errors occurred. (One or more errors occurred. (Object reference not set to an instance of an object.)) ---> System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.) ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Services.services.StartupService.(String )
+   at Services.services.StartupService..MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Services.services.StartupService..MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at pt_feeder.Startup.OnStarting() in C:\projects\profittrailer-config-generator\pt-feeder\Startup.cs:line 163
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   --- End of inner exception stack trace ---
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   at Microsoft.AspNetCore.Hosting.Internal.ApplicationLifetime.ExecuteHandlers(CancellationTokenSource cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.Internal.ApplicationLifetime.ExecuteHandlers(CancellationTokenSource cancel)
+   at Microsoft.AspNetCore.Hosting.Internal.ApplicationLifetime.NotifyStarted()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (One or more errors occurred. (Object reference not set to an instance of an object.)) ---> System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.) ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Services.services.StartupService.(String )
+   at Services.services.StartupService..MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Services.services.StartupService..MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at pt_feeder.Startup.OnStarting() in C:\projects\profittrailer-config-generator\pt-feeder\Startup.cs:line 163
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   --- End of inner exception stack trace ---
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   at Microsoft.AspNetCore.Hosting.Internal.ApplicationLifetime.ExecuteHandlers(CancellationTokenSource cancel)
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.) ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Services.services.StartupService.(String )
+   at Services.services.StartupService..MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Services.services.StartupService..MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at pt_feeder.Startup.OnStarting() in C:\projects\profittrailer-config-generator\pt-feeder\Startup.cs:line 163
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+---> (Inner Exception #0) System.NullReferenceException: Object reference not set to an instance of an object.
+   at Services.services.StartupService.(String )
+   at Services.services.StartupService..MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Services.services.StartupService..MoveNext()<---
+<---
+<---
+
+2018-01-22 11:25:36.858 -05:00 [Information] Starting PT Feeder (no longer a mouthful)
+2018-01-22 11:25:36.953 -05:00 [Information] Massive thanks to Elroy and team for Profit Trailer. https://github.com/taniman/profit-trailer
+2018-01-22 11:25:37.030 -05:00 [Information] Running from C:\Users\Administrator\Desktop\PT FEEDER
+2018-01-22 11:25:37.063 -05:00 [Information] Checking for license information
+2018-01-22 11:25:37.120 -05:00 [Information] Polo setup detected. Will create .properties files in C:\pt\vps\pt\polo\trading
+2018-01-22 11:25:37.124 -05:00 [Error] Could not read api key to validate license: Could not find a part of the path 'C:\pt\vps\pt\polo\application.properties'.
+2018-01-22 11:25:37.130 -05:00 [Fatal] An error occurred starting the application
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (One or more errors occurred. (Object reference not set to an instance of an object.))) ---> System.AggregateException: One or more errors occurred. (One or more errors occurred. (Object reference not set to an instance of an object.)) ---> System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.) ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Services.services.StartupService.(String )
+   at Services.services.StartupService..MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Services.services.StartupService..MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at pt_feeder.Startup.OnStarting() in C:\projects\profittrailer-config-generator\pt-feeder\Startup.cs:line 163
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   --- End of inner exception stack trace ---
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   at Microsoft.AspNetCore.Hosting.Internal.ApplicationLifetime.ExecuteHandlers(CancellationTokenSource cancel)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.Internal.ApplicationLifetime.ExecuteHandlers(CancellationTokenSource cancel)
+   at Microsoft.AspNetCore.Hosting.Internal.ApplicationLifetime.NotifyStarted()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (One or more errors occurred. (Object reference not set to an instance of an object.)) ---> System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.) ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Services.services.StartupService.(String )
+   at Services.services.StartupService..MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Services.services.StartupService..MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at pt_feeder.Startup.OnStarting() in C:\projects\profittrailer-config-generator\pt-feeder\Startup.cs:line 163
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   --- End of inner exception stack trace ---
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   at Microsoft.AspNetCore.Hosting.Internal.ApplicationLifetime.ExecuteHandlers(CancellationTokenSource cancel)
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.) ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Services.services.StartupService.(String )
+   at Services.services.StartupService..MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Services.services.StartupService..MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at pt_feeder.Startup.OnStarting() in C:\projects\profittrailer-config-generator\pt-feeder\Startup.cs:line 163
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+---> (Inner Exception #0) System.NullReferenceException: Object reference not set to an instance of an object.
+   at Services.services.StartupService.(String )
+   at Services.services.StartupService..MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Services.services.StartupService..MoveNext()<---
+<---
+<---
+
+2018-01-22 11:28:37.500 -05:00 [Information] Starting PT Feeder (no longer a mouthful)
+2018-01-22 11:28:37.673 -05:00 [Information] Massive thanks to Elroy and team for Profit Trailer. https://github.com/taniman/profit-trailer
+2018-01-22 11:28:37.674 -05:00 [Information] Running from C:\Users\Administrator\Desktop\PT FEEDER
+2018-01-22 11:28:37.703 -05:00 [Information] Checking for license information
+2018-01-22 11:28:37.711 -05:00 [Information] Binance setup detected. Will create .properties files in C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 11:28:38.867 -05:00 [Information] Running startup generation of database and pairs
+2018-01-22 11:28:39.398 -05:00 [Information] Loading initial prices and candles from binance
+2018-01-22 11:29:55.169 -05:00 [Information] 0 out of 101 pairs queried
+2018-01-22 11:30:06.023 -05:00 [Information] 10 out of 101 pairs queried
+2018-01-22 11:30:16.612 -05:00 [Information] 20 out of 101 pairs queried
+2018-01-22 11:30:27.133 -05:00 [Information] 30 out of 101 pairs queried
+2018-01-22 11:30:37.909 -05:00 [Information] 40 out of 101 pairs queried
+2018-01-22 11:30:48.598 -05:00 [Information] 50 out of 101 pairs queried
+2018-01-22 11:30:59.652 -05:00 [Information] 60 out of 101 pairs queried
+2018-01-22 11:31:10.436 -05:00 [Information] 70 out of 101 pairs queried
+2018-01-22 11:31:20.951 -05:00 [Information] 80 out of 101 pairs queried
+2018-01-22 11:31:31.820 -05:00 [Information] 90 out of 101 pairs queried
+2018-01-22 11:31:41.969 -05:00 [Information] All prices added to database
+2018-01-22 11:31:42.031 -05:00 [Information] Scheduling market conditions to be checked every 5 minutes
+2018-01-22 11:31:42.046 -05:00 [Information] Startup complete. Will generate pairs file on next run
+2018-01-22 11:38:00.847 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.2278%
+2018-01-22 11:38:00.922 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.2092%
+2018-01-22 11:38:00.937 -05:00 [Information] USING CONFIG FROM: 03-boring
+2018-01-22 11:38:00.938 -05:00 [Information] Reason: Coin trend is lower than 2.5%
+2018-01-22 11:38:01.013 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 11:38:02.376 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 11:38:02.891 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 11:38:03.227 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 11:38:03.911 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 11:38:08.960 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 11:38:13.990 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 11:38:15.132 -05:00 [Information] Telegram message sent
+2018-01-22 11:38:15.141 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 11:44:35.500 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.4383%
+2018-01-22 11:44:35.527 -05:00 [Information] BTC percentage change for the last 60 minutes is 2.579%
+2018-01-22 11:44:35.527 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 11:44:35.529 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 11:50:54.820 -05:00 [Information] Coins percentage change for the last 60 minutes is 1.1813%
+2018-01-22 11:50:54.825 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.1584%
+2018-01-22 11:50:54.826 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 11:50:54.827 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 11:57:13.112 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.7427%
+2018-01-22 11:57:13.118 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.3301%
+2018-01-22 11:57:13.119 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 11:57:13.120 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 12:03:31.534 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.9534%
+2018-01-22 12:03:31.539 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.7253%
+2018-01-22 12:03:31.540 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 12:03:31.541 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 12:09:52.827 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.9839%
+2018-01-22 12:09:52.843 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.8997%
+2018-01-22 12:09:52.845 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 12:09:52.846 -05:00 [Information] Regenrating properties files.
+2018-01-22 12:09:52.853 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 12:09:53.136 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 12:09:53.590 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 12:09:53.850 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 12:09:54.250 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 12:09:59.259 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 12:10:04.293 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 12:10:04.318 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 12:16:24.913 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.7453%
+2018-01-22 12:16:24.916 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.0063%
+2018-01-22 12:16:24.916 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 12:16:24.917 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 12:22:44.927 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.8266%
+2018-01-22 12:22:44.930 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.6412%
+2018-01-22 12:22:44.931 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 12:22:44.933 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 12:29:04.410 -05:00 [Information] Coins percentage change for the last 60 minutes is 1.019%
+2018-01-22 12:29:04.444 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.1348%
+2018-01-22 12:29:04.445 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 12:29:04.445 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 12:35:24.437 -05:00 [Information] Coins percentage change for the last 60 minutes is 1.0181%
+2018-01-22 12:35:24.441 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.8508%
+2018-01-22 12:35:24.442 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 12:35:24.443 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 12:41:44.545 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.7915%
+2018-01-22 12:41:44.547 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.1719%
+2018-01-22 12:41:44.548 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 12:41:44.548 -05:00 [Information] Regenrating properties files.
+2018-01-22 12:41:44.554 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 12:41:44.820 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 12:41:45.099 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 12:41:45.621 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 12:41:46.035 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 12:41:51.044 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 12:41:56.050 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 12:41:56.052 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 12:48:14.452 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.6754%
+2018-01-22 12:48:14.610 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.2217%
+2018-01-22 12:48:14.610 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 12:48:14.611 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 12:54:33.743 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.6504%
+2018-01-22 12:54:33.758 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.9704%
+2018-01-22 12:54:33.764 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 12:54:33.765 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 13:00:55.105 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.5988%
+2018-01-22 13:00:55.109 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.7306%
+2018-01-22 13:00:55.111 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 13:00:55.114 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 13:07:15.006 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.4773%
+2018-01-22 13:07:15.019 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.5163%
+2018-01-22 13:07:15.020 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 13:07:15.021 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 13:13:34.096 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.2721%
+2018-01-22 13:13:34.362 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.5755%
+2018-01-22 13:13:34.363 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 13:13:34.364 -05:00 [Information] Regenrating properties files.
+2018-01-22 13:13:34.483 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 13:13:34.899 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 13:13:35.296 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 13:13:35.732 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 13:13:36.169 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 13:13:41.240 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 13:13:46.247 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 13:13:46.249 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 13:20:04.119 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.1474%
+2018-01-22 13:20:04.123 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.8526%
+2018-01-22 13:20:04.124 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 13:20:04.125 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 13:26:21.551 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.0972%
+2018-01-22 13:26:21.560 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.4436%
+2018-01-22 13:26:21.586 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 13:26:21.588 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 13:32:42.313 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.2136%
+2018-01-22 13:32:42.489 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.0307%
+2018-01-22 13:32:42.559 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 13:32:42.649 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 13:39:02.031 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.3167%
+2018-01-22 13:39:02.050 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.6761%
+2018-01-22 13:39:02.053 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 13:39:02.078 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 13:45:21.336 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.4035%
+2018-01-22 13:45:21.340 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.2839%
+2018-01-22 13:45:21.342 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 13:45:21.343 -05:00 [Information] Regenrating properties files.
+2018-01-22 13:45:21.351 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 13:45:21.609 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 13:45:22.058 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 13:45:22.440 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 13:45:23.113 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 13:45:28.221 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 13:45:33.227 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 13:45:33.230 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 13:51:51.220 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.1551%
+2018-01-22 13:51:51.235 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.6629%
+2018-01-22 13:51:51.237 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 13:51:51.239 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 13:58:09.314 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.3287%
+2018-01-22 13:58:09.318 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.7106%
+2018-01-22 13:58:09.320 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 13:58:09.323 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 14:04:29.132 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.3479%
+2018-01-22 14:04:29.136 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.1944%
+2018-01-22 14:04:29.136 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 14:04:29.137 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 14:10:46.415 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.2555%
+2018-01-22 14:10:46.418 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.1423%
+2018-01-22 14:10:46.419 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 14:10:46.420 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 14:17:05.521 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.3402%
+2018-01-22 14:17:05.524 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.7144%
+2018-01-22 14:17:05.525 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 14:17:05.526 -05:00 [Information] Regenrating properties files.
+2018-01-22 14:17:05.531 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 14:17:05.927 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 14:17:06.299 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 14:17:06.742 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 14:17:07.660 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 14:17:12.717 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 14:17:17.777 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 14:17:17.849 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 14:23:35.456 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.193%
+2018-01-22 14:23:35.466 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.2751%
+2018-01-22 14:23:35.466 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 14:23:35.467 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 14:29:53.123 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.2668%
+2018-01-22 14:29:53.127 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.132%
+2018-01-22 14:29:53.127 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 14:29:53.128 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 14:36:11.522 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.262%
+2018-01-22 14:36:11.527 -05:00 [Information] BTC percentage change for the last 60 minutes is -2.1983%
+2018-01-22 14:36:11.528 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 14:36:11.530 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 14:42:29.317 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.2196%
+2018-01-22 14:42:29.322 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.6321%
+2018-01-22 14:42:29.323 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 14:42:29.324 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 14:48:46.918 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.302%
+2018-01-22 14:48:46.928 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.7889%
+2018-01-22 14:48:46.929 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 14:48:46.930 -05:00 [Information] Regenrating properties files.
+2018-01-22 14:48:46.938 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 14:48:47.366 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 14:48:47.843 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 14:48:48.527 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 14:48:48.893 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 14:48:54.046 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 14:48:59.052 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 14:48:59.054 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 14:55:17.549 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.1143%
+2018-01-22 14:55:17.555 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.0461%
+2018-01-22 14:55:17.556 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 14:55:17.557 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 15:01:35.838 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.1223%
+2018-01-22 15:01:35.844 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.9003%
+2018-01-22 15:01:35.847 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 15:01:35.850 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 15:07:54.547 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.2412%
+2018-01-22 15:07:54.552 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.0197%
+2018-01-22 15:07:54.558 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 15:07:54.573 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 15:14:11.648 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.2536%
+2018-01-22 15:14:11.660 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.3219%
+2018-01-22 15:14:11.670 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 15:14:11.672 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 15:20:31.507 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.1022%
+2018-01-22 15:20:31.521 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.2305%
+2018-01-22 15:20:31.524 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 15:20:31.526 -05:00 [Information] Regenrating properties files.
+2018-01-22 15:20:31.535 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 15:20:32.134 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 15:20:32.649 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 15:20:33.239 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 15:20:33.701 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 15:20:38.728 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 15:20:43.734 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 15:20:43.738 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 15:27:02.144 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.1044%
+2018-01-22 15:27:02.161 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.2895%
+2018-01-22 15:27:02.164 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 15:27:02.168 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 15:33:21.221 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.1716%
+2018-01-22 15:33:21.225 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.2577%
+2018-01-22 15:33:21.227 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 15:33:21.229 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 15:39:39.034 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.1985%
+2018-01-22 15:39:39.038 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.0574%
+2018-01-22 15:39:39.040 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 15:39:39.042 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 15:45:58.038 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.0682%
+2018-01-22 15:45:58.042 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.1002%
+2018-01-22 15:45:58.045 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 15:45:58.047 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 15:52:16.222 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.0028%
+2018-01-22 15:52:16.227 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.9439%
+2018-01-22 15:52:16.229 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 15:52:16.231 -05:00 [Information] Regenrating properties files.
+2018-01-22 15:52:16.241 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 15:52:16.644 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 15:52:17.067 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 15:52:17.754 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 15:52:18.257 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 15:52:23.338 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 15:52:28.345 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 15:52:28.348 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 15:58:45.383 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.0536%
+2018-01-22 15:58:45.386 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.0599%
+2018-01-22 15:58:45.388 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 15:58:45.413 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 16:05:07.133 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.1197%
+2018-01-22 16:05:07.134 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.5358%
+2018-01-22 16:05:07.143 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 16:05:07.144 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 16:11:25.703 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.4089%
+2018-01-22 16:11:25.718 -05:00 [Information] BTC percentage change for the last 60 minutes is -2.6096%
+2018-01-22 16:11:25.720 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 16:11:25.722 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 16:17:45.083 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.5964%
+2018-01-22 16:17:45.123 -05:00 [Information] BTC percentage change for the last 60 minutes is -2.2493%
+2018-01-22 16:17:45.126 -05:00 [Information] USING CONFIG FROM: 02-bear
+2018-01-22 16:17:45.127 -05:00 [Information] Reason: Coin trend is lower than -0.5%
+2018-01-22 16:17:45.136 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 16:17:45.633 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 16:17:46.343 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 16:17:46.894 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 16:17:47.656 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 16:17:52.680 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 16:17:57.814 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 16:17:58.539 -05:00 [Information] Telegram message sent
+2018-01-22 16:17:58.553 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 16:24:20.273 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.9679%
+2018-01-22 16:24:20.279 -05:00 [Information] BTC percentage change for the last 60 minutes is -2.0896%
+2018-01-22 16:24:20.282 -05:00 [Information] Market condition is still 02-bear
+2018-01-22 16:24:20.284 -05:00 [Information] Regenrating properties files.
+2018-01-22 16:24:20.297 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 16:24:20.868 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 16:24:21.760 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 16:24:22.219 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 16:24:22.864 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 16:24:27.933 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 16:24:32.940 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 16:24:32.942 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 16:30:51.132 -05:00 [Information] Coins percentage change for the last 60 minutes is -1.1507%
+2018-01-22 16:30:51.137 -05:00 [Information] BTC percentage change for the last 60 minutes is -2.6093%
+2018-01-22 16:30:51.139 -05:00 [Information] Market condition is still 02-bear
+2018-01-22 16:30:51.141 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 16:37:10.028 -05:00 [Information] Coins percentage change for the last 60 minutes is -1.2668%
+2018-01-22 16:37:10.033 -05:00 [Information] BTC percentage change for the last 60 minutes is -2.8968%
+2018-01-22 16:37:10.036 -05:00 [Information] Market condition is still 02-bear
+2018-01-22 16:37:10.038 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 16:43:26.619 -05:00 [Information] Coins percentage change for the last 60 minutes is -1.3682%
+2018-01-22 16:43:26.623 -05:00 [Information] BTC percentage change for the last 60 minutes is -3.0787%
+2018-01-22 16:43:26.626 -05:00 [Information] Market condition is still 02-bear
+2018-01-22 16:43:26.628 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 16:49:43.517 -05:00 [Information] Coins percentage change for the last 60 minutes is -1.735%
+2018-01-22 16:49:43.532 -05:00 [Information] BTC percentage change for the last 60 minutes is -3.3051%
+2018-01-22 16:49:43.535 -05:00 [Information] Market condition is still 02-bear
+2018-01-22 16:49:43.537 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 16:56:01.533 -05:00 [Information] Coins percentage change for the last 60 minutes is -1.3386%
+2018-01-22 16:56:01.537 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.0792%
+2018-01-22 16:56:01.541 -05:00 [Information] Market condition is still 02-bear
+2018-01-22 16:56:01.543 -05:00 [Information] Regenrating properties files.
+2018-01-22 16:56:01.551 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 16:56:02.359 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 16:56:03.156 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 16:56:03.837 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 16:56:04.554 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 16:56:09.611 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 16:56:14.620 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 16:56:14.622 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 17:02:33.043 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.9057%
+2018-01-22 17:02:33.048 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.9175%
+2018-01-22 17:02:33.053 -05:00 [Information] Market condition is still 02-bear
+2018-01-22 17:02:33.067 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 17:08:52.211 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.5312%
+2018-01-22 17:08:52.214 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.8639%
+2018-01-22 17:08:52.217 -05:00 [Information] Market condition is still 02-bear
+2018-01-22 17:08:52.219 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 17:15:11.175 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.0096%
+2018-01-22 17:15:11.193 -05:00 [Information] BTC percentage change for the last 60 minutes is 3.5246%
+2018-01-22 17:15:11.203 -05:00 [Information] USING CONFIG FROM: 03-boring
+2018-01-22 17:15:11.212 -05:00 [Information] Reason: Coin trend is lower than 2.5%
+2018-01-22 17:15:11.220 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 17:15:11.830 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 17:15:12.713 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 17:15:13.246 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 17:15:13.919 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 17:15:18.939 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 17:15:23.945 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 17:15:24.506 -05:00 [Information] Telegram message sent
+2018-01-22 17:15:24.527 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 17:21:44.133 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.6024%
+2018-01-22 17:21:44.151 -05:00 [Information] BTC percentage change for the last 60 minutes is 2.1555%
+2018-01-22 17:21:44.155 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 17:21:44.315 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 17:28:03.537 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.7557%
+2018-01-22 17:28:03.543 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.6275%
+2018-01-22 17:28:03.544 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 17:28:03.545 -05:00 [Information] Regenrating properties files.
+2018-01-22 17:28:03.551 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 17:28:04.109 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 17:28:04.683 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 17:28:05.164 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 17:28:05.780 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 17:28:10.837 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 17:28:15.846 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 17:28:15.848 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 17:34:35.526 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.8958%
+2018-01-22 17:34:35.531 -05:00 [Information] BTC percentage change for the last 60 minutes is 3.4178%
+2018-01-22 17:34:35.532 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 17:34:35.533 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 17:40:51.711 -05:00 [Information] Coins percentage change for the last 60 minutes is 1.3457%
+2018-01-22 17:40:51.717 -05:00 [Information] BTC percentage change for the last 60 minutes is 5.1218%
+2018-01-22 17:40:51.718 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 17:40:51.719 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 17:47:09.063 -05:00 [Information] Coins percentage change for the last 60 minutes is 1.9951%
+2018-01-22 17:47:09.075 -05:00 [Information] BTC percentage change for the last 60 minutes is 2.5197%
+2018-01-22 17:47:09.081 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 17:47:09.083 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 17:53:29.439 -05:00 [Information] Coins percentage change for the last 60 minutes is 1.7356%
+2018-01-22 17:53:29.444 -05:00 [Information] BTC percentage change for the last 60 minutes is 2.7106%
+2018-01-22 17:53:29.448 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 17:53:29.464 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 17:59:48.020 -05:00 [Information] Coins percentage change for the last 60 minutes is 1.4948%
+2018-01-22 17:59:48.023 -05:00 [Information] BTC percentage change for the last 60 minutes is 3.1495%
+2018-01-22 17:59:48.026 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 17:59:48.027 -05:00 [Information] Regenrating properties files.
+2018-01-22 17:59:48.034 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 17:59:48.444 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 17:59:49.386 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 17:59:50.178 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 17:59:50.829 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 17:59:55.835 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 18:00:00.842 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 18:00:00.846 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 18:06:20.052 -05:00 [Information] Coins percentage change for the last 60 minutes is 1.4622%
+2018-01-22 18:06:20.059 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.0852%
+2018-01-22 18:06:20.062 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 18:06:20.071 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 18:12:38.324 -05:00 [Information] Coins percentage change for the last 60 minutes is 1.0667%
+2018-01-22 18:12:38.331 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.8547%
+2018-01-22 18:12:38.333 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 18:12:38.335 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 18:18:56.165 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.9243%
+2018-01-22 18:18:56.169 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.98%
+2018-01-22 18:18:56.170 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 18:18:56.171 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 18:25:16.358 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.8323%
+2018-01-22 18:25:16.370 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.3995%
+2018-01-22 18:25:16.370 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 18:25:16.371 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 18:31:34.130 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.8519%
+2018-01-22 18:31:34.135 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.9679%
+2018-01-22 18:31:34.135 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 18:31:34.137 -05:00 [Information] Regenrating properties files.
+2018-01-22 18:31:34.144 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 18:31:34.757 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 18:31:35.345 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 18:31:36.124 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 18:31:36.886 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 18:31:41.948 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 18:31:46.956 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 18:31:46.978 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 18:38:04.514 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.8114%
+2018-01-22 18:38:04.517 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.1281%
+2018-01-22 18:38:04.518 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 18:38:04.519 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 18:44:24.237 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.6522%
+2018-01-22 18:44:24.244 -05:00 [Information] BTC percentage change for the last 60 minutes is 2.7736%
+2018-01-22 18:44:24.245 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 18:44:24.246 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 18:50:43.713 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.4668%
+2018-01-22 18:50:43.720 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.9208%
+2018-01-22 18:50:43.723 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 18:50:43.725 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 18:57:04.209 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.4563%
+2018-01-22 18:57:04.213 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.9581%
+2018-01-22 18:57:04.226 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 18:57:04.228 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 19:03:23.517 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.3203%
+2018-01-22 19:03:23.520 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.2347%
+2018-01-22 19:03:23.522 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 19:03:23.526 -05:00 [Information] Regenrating properties files.
+2018-01-22 19:03:23.534 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 19:03:24.048 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 19:03:24.503 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 19:03:25.026 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 19:03:25.701 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 19:03:30.721 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 19:03:35.776 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 19:03:35.785 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 19:09:56.208 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.4219%
+2018-01-22 19:09:56.287 -05:00 [Information] BTC percentage change for the last 60 minutes is 2.0829%
+2018-01-22 19:09:56.306 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 19:09:56.312 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 19:16:14.718 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.4279%
+2018-01-22 19:16:14.721 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.952%
+2018-01-22 19:16:14.724 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 19:16:14.724 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 19:22:33.084 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.5652%
+2018-01-22 19:22:33.090 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.1534%
+2018-01-22 19:22:33.126 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 19:22:33.128 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 19:28:54.028 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.5339%
+2018-01-22 19:28:54.032 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.4706%
+2018-01-22 19:28:54.033 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 19:28:54.034 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 19:35:12.325 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.2992%
+2018-01-22 19:35:12.330 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.9823%
+2018-01-22 19:35:12.331 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 19:35:12.332 -05:00 [Information] Regenrating properties files.
+2018-01-22 19:35:12.340 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 19:35:12.937 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 19:35:13.642 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 19:35:14.239 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 19:35:15.054 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 19:35:20.144 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 19:35:25.152 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 19:35:25.156 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 19:41:44.833 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.2528%
+2018-01-22 19:41:44.837 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.1105%
+2018-01-22 19:41:44.838 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 19:41:44.839 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 19:48:04.103 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.2245%
+2018-01-22 19:48:04.127 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.7285%
+2018-01-22 19:48:04.128 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 19:48:04.129 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 19:54:22.295 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.0285%
+2018-01-22 19:54:22.330 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.394%
+2018-01-22 19:54:22.331 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 19:54:22.332 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 20:00:39.420 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.1038%
+2018-01-22 20:00:39.423 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.0464%
+2018-01-22 20:00:39.424 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 20:00:39.425 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 20:06:55.884 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.0039%
+2018-01-22 20:06:55.888 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.3047%
+2018-01-22 20:06:55.889 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 20:06:55.890 -05:00 [Information] Regenrating properties files.
+2018-01-22 20:06:55.948 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 20:06:56.746 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 20:06:57.347 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 20:06:58.136 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 20:06:58.847 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 20:07:03.854 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 20:07:08.869 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 20:07:08.871 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 20:13:26.369 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.0494%
+2018-01-22 20:13:26.400 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.8482%
+2018-01-22 20:13:26.403 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 20:13:26.437 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 20:19:44.611 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.0656%
+2018-01-22 20:19:44.614 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.4002%
+2018-01-22 20:19:44.616 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 20:19:44.618 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 20:26:03.408 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.1328%
+2018-01-22 20:26:03.412 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.7666%
+2018-01-22 20:26:03.415 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 20:26:03.417 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 20:32:22.854 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.2777%
+2018-01-22 20:32:22.860 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.8279%
+2018-01-22 20:32:22.863 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 20:32:22.865 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 20:38:41.419 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.3588%
+2018-01-22 20:38:41.422 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.205%
+2018-01-22 20:38:41.425 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 20:38:41.426 -05:00 [Information] Regenrating properties files.
+2018-01-22 20:38:41.433 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 20:38:42.055 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 20:38:42.730 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 20:38:43.362 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 20:38:44.285 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 20:38:49.316 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 20:38:54.323 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 20:38:54.325 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 20:45:15.078 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.3306%
+2018-01-22 20:45:15.081 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.7521%
+2018-01-22 20:45:15.084 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 20:45:15.086 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 20:51:32.528 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.4406%
+2018-01-22 20:51:32.531 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.8858%
+2018-01-22 20:51:32.534 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 20:51:32.537 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 20:57:52.610 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.5599%
+2018-01-22 20:57:52.613 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.9618%
+2018-01-22 20:57:52.616 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 20:57:52.620 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 21:04:10.127 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.4554%
+2018-01-22 21:04:10.132 -05:00 [Information] BTC percentage change for the last 60 minutes is -2.4517%
+2018-01-22 21:04:10.136 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 21:04:10.140 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 21:10:28.573 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.5827%
+2018-01-22 21:10:28.579 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.1061%
+2018-01-22 21:10:28.580 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 21:10:28.582 -05:00 [Information] Regenrating properties files.
+2018-01-22 21:10:28.591 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 21:10:29.551 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 21:10:30.341 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 21:10:30.909 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 21:10:31.485 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 21:10:36.528 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 21:10:41.561 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 21:10:41.565 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 21:17:02.538 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.3883%
+2018-01-22 21:17:02.543 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.2659%
+2018-01-22 21:17:02.546 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 21:17:02.548 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 21:23:21.868 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.3254%
+2018-01-22 21:23:21.876 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.1447%
+2018-01-22 21:23:21.879 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 21:23:21.881 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 21:29:41.414 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.1986%
+2018-01-22 21:29:41.418 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.0092%
+2018-01-22 21:29:41.421 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 21:29:41.422 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 21:35:59.643 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.1268%
+2018-01-22 21:35:59.647 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.2701%
+2018-01-22 21:35:59.649 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 21:35:59.652 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 21:42:17.632 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.2362%
+2018-01-22 21:42:17.636 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.7315%
+2018-01-22 21:42:17.639 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 21:42:17.640 -05:00 [Information] Regenrating properties files.
+2018-01-22 21:42:17.648 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 21:42:18.533 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 21:42:19.047 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 21:42:19.758 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 21:42:20.458 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 21:42:25.515 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 21:42:30.536 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 21:42:30.539 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 21:48:48.605 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.2491%
+2018-01-22 21:48:48.612 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.0093%
+2018-01-22 21:48:48.616 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 21:48:48.617 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 21:55:16.269 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.2446%
+2018-01-22 21:55:16.281 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.9672%
+2018-01-22 21:55:16.283 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 21:55:16.285 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 22:01:35.659 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.3097%
+2018-01-22 22:01:35.739 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.5825%
+2018-01-22 22:01:35.740 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 22:01:35.741 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 22:07:58.033 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.3144%
+2018-01-22 22:07:58.037 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.1097%
+2018-01-22 22:07:58.038 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 22:07:58.039 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 22:12:58.163 -05:00 [Information] Loading initial prices and candles from binance
+2018-01-22 22:14:17.251 -05:00 [Information] 0 out of 101 pairs queried
+2018-01-22 22:14:27.959 -05:00 [Information] 10 out of 101 pairs queried
+2018-01-22 22:14:38.357 -05:00 [Information] 20 out of 101 pairs queried
+2018-01-22 22:14:49.688 -05:00 [Information] 30 out of 101 pairs queried
+2018-01-22 22:15:01.935 -05:00 [Information] 40 out of 101 pairs queried
+2018-01-22 22:15:13.125 -05:00 [Information] 50 out of 101 pairs queried
+2018-01-22 22:15:23.629 -05:00 [Information] 60 out of 101 pairs queried
+2018-01-22 22:15:34.035 -05:00 [Information] 70 out of 101 pairs queried
+2018-01-22 22:15:44.990 -05:00 [Information] 80 out of 101 pairs queried
+2018-01-22 22:15:56.467 -05:00 [Information] 90 out of 101 pairs queried
+2018-01-22 22:16:06.460 -05:00 [Information] All prices added to database
+2018-01-22 22:16:06.743 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.2974%
+2018-01-22 22:16:06.745 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.9448%
+2018-01-22 22:16:06.745 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 22:16:06.746 -05:00 [Information] Regenrating properties files.
+2018-01-22 22:16:06.752 -05:00 [Information] 0 out of 100 pairs queried
+2018-01-22 22:16:07.551 -05:00 [Information] 25 out of 100 pairs queried
+2018-01-22 22:16:08.252 -05:00 [Information] 50 out of 100 pairs queried
+2018-01-22 22:16:08.944 -05:00 [Information] 75 out of 100 pairs queried
+2018-01-22 22:16:09.612 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 22:16:14.628 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 22:16:19.638 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 22:16:19.641 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 22:22:41.362 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.4354%
+2018-01-22 22:22:41.364 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.0374%
+2018-01-22 22:22:41.374 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 22:22:41.376 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 22:29:01.418 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.6516%
+2018-01-22 22:29:01.422 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.749%
+2018-01-22 22:29:01.424 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 22:29:01.426 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 22:35:22.317 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.389%
+2018-01-22 22:35:22.321 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.6682%
+2018-01-22 22:35:22.324 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 22:35:22.325 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 22:41:45.754 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.2326%
+2018-01-22 22:41:45.763 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.0832%
+2018-01-22 22:41:45.776 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 22:41:45.780 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 22:48:06.156 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.1668%
+2018-01-22 22:48:06.249 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.5442%
+2018-01-22 22:48:06.254 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 22:48:06.324 -05:00 [Information] Regenrating properties files.
+2018-01-22 22:48:06.333 -05:00 [Information] 0 out of 101 pairs queried
+2018-01-22 22:48:07.157 -05:00 [Information] 25 out of 101 pairs queried
+2018-01-22 22:48:08.017 -05:00 [Information] 50 out of 101 pairs queried
+2018-01-22 22:48:08.712 -05:00 [Information] 75 out of 101 pairs queried
+2018-01-22 22:48:09.700 -05:00 [Information] 100 out of 101 pairs queried
+2018-01-22 22:48:09.762 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 22:48:14.857 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 22:48:19.934 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 22:48:19.936 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 22:54:40.546 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.3808%
+2018-01-22 22:54:40.550 -05:00 [Information] BTC percentage change for the last 60 minutes is 1.9739%
+2018-01-22 22:54:40.553 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 22:54:40.568 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 23:01:04.357 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.31%
+2018-01-22 23:01:04.361 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.7964%
+2018-01-22 23:01:04.369 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 23:01:04.375 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 23:07:28.358 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.3876%
+2018-01-22 23:07:28.362 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.6656%
+2018-01-22 23:07:28.365 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 23:07:28.366 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 23:13:49.618 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.2221%
+2018-01-22 23:13:49.622 -05:00 [Information] BTC percentage change for the last 60 minutes is 0.2869%
+2018-01-22 23:13:49.625 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 23:13:49.627 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 23:20:17.936 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.3772%
+2018-01-22 23:20:17.941 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.9521%
+2018-01-22 23:20:17.944 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 23:20:17.946 -05:00 [Information] Regenrating properties files.
+2018-01-22 23:20:17.955 -05:00 [Information] 0 out of 101 pairs queried
+2018-01-22 23:20:18.876 -05:00 [Information] 25 out of 101 pairs queried
+2018-01-22 23:20:20.039 -05:00 [Information] 50 out of 101 pairs queried
+2018-01-22 23:20:20.948 -05:00 [Information] 75 out of 101 pairs queried
+2018-01-22 23:20:21.801 -05:00 [Information] 100 out of 101 pairs queried
+2018-01-22 23:20:21.835 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 23:20:26.843 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 23:20:31.866 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 23:20:31.880 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 23:26:54.407 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.4645%
+2018-01-22 23:26:54.416 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.911%
+2018-01-22 23:26:54.418 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 23:26:54.420 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 23:33:14.201 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.1619%
+2018-01-22 23:33:14.204 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.8831%
+2018-01-22 23:33:14.205 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 23:33:14.206 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 23:39:37.181 -05:00 [Information] Coins percentage change for the last 60 minutes is -0.0965%
+2018-01-22 23:39:37.189 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.6938%
+2018-01-22 23:39:37.191 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 23:39:37.193 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 23:45:56.234 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.2771%
+2018-01-22 23:45:56.238 -05:00 [Information] BTC percentage change for the last 60 minutes is -1.8318%
+2018-01-22 23:45:56.241 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 23:45:56.243 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 23:52:16.432 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.3698%
+2018-01-22 23:52:16.436 -05:00 [Information] BTC percentage change for the last 60 minutes is -0.838%
+2018-01-22 23:52:16.440 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 23:52:16.442 -05:00 [Information] Regenrating properties files.
+2018-01-22 23:52:16.457 -05:00 [Information] 0 out of 101 pairs queried
+2018-01-22 23:52:17.153 -05:00 [Information] 25 out of 101 pairs queried
+2018-01-22 23:52:18.024 -05:00 [Information] 50 out of 101 pairs queried
+2018-01-22 23:52:18.910 -05:00 [Information] 75 out of 101 pairs queried
+2018-01-22 23:52:20.056 -05:00 [Information] 100 out of 101 pairs queried
+2018-01-22 23:52:20.130 -05:00 [Information] PAIRS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 23:52:25.135 -05:00 [Information] DCA.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 23:52:30.142 -05:00 [Information] INDICATORS.properties file written to C:\Users\Administrator\Desktop\Crypto Savvy Coins\trading
+2018-01-22 23:52:30.146 -05:00 [Information] Next run scheduled for 5 mins
+2018-01-22 23:58:50.723 -05:00 [Information] Coins percentage change for the last 60 minutes is 0.1364%
+2018-01-22 23:58:50.728 -05:00 [Information] BTC percentage change for the last 60 minutes is -3.1518%
+2018-01-22 23:58:50.731 -05:00 [Information] Market condition is still 03-boring
+2018-01-22 23:58:50.733 -05:00 [Information] Next run scheduled for 5 mins
