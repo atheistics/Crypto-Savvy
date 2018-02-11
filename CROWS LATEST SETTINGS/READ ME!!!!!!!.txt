@@ -1,0 +1,56 @@
+This set of settings should do well for you, though, they will generate
+bags, which is COMMON. 
+
+To use these settings, simply drag the 3 files into your Profit Trailer
+"trading" folder and overwrite what is in there.
+
+Remember, these settings are very aggresive but they work well.
+If you collect a lot of bags when the market goes red, just change
+the PAIRS setting:
+
+###Set To True To Make The Bot Sell Only###
+ALL_sell_only_mode = true
+And let your bags sell as the market comesback.
+
+Also, the PAIRS files contain the BTC or ETH Trading pairs I chose
+not to trade due to them being known Pump and Dumps. This should help
+spare you from having crappy bags for shit coins.
+
+Enjoy! If you appreciate what I do, use the links below to get
+what you need! :)
+
+CROW YOUR COINS!
+
+FOR SUPPORT:
+Profit Trailer: Discord: https://discordapp.com/invite/K9a37Vh
+Profit Feeder: Discord: https://discord.gg/UfBUqwb 
+
+LEARN ABOUT CRYPTO IN MY UDEMY COURSE: $10  http://jasonappleton.com/udemy 
+Buy Profit Trailer here: http://jasonappleton.com/ProfitTrailer 
+Crypto Crow Fund - https://www.patreon.com/cryptocrow 
+
+###### PROFIT TRAILER ########
+Buy Profit Trailer here: http://jasonappleton.com/ProfitTrailer 
+Buy PT Feeder: http://jasonappleton.com/ProfitFeeder 
+Download My Settings FREE: http://jasonappleton.com/Settings
+VPS Server: http://jasonappleton.com/VPS 
+
+############################
+USEFUL LINKS
+Buy a Ledger Nano Wallet (Amazon): http://jasonappleton.com/LedgerNanoS 
+Buy a Trezor Wallet (Amazon): http://jasonappleton.com/Trezor 
+The Best Crypto Trading Tool http://jasonappleton.com/Coinigy 
+Setup Your Binance Exchange Account: http://jasonappleton.com/Binance
+Coin Tracker to Help Track It All For Taxes: http://jasonappleton.com/CT 
+
+###### SOCIAL MEDIA #######
+I AM NOT A FINANCIAL ADVISER - NOTHING WITHIN THIS VIDEO OR ON MY SITES SHOULD BE 
+CONSIDERED FINANCIAL ADVICE AS ITS ALL A MATTER OF PERSONAL OPINION ONLY. 
+WHAT WORKS FOR ME TODAY MAY NOT WORK FOR YOU TOMORROW.
+Crypto Crow Merchandise: http://jasonappleton.com/crowmerch
+CryptoCrow Telegram: https://t.me/cryptocrowgroup
+CryptoCrow Facebook: https://www.facebook.com/cryptocrow/
+CryptoCrow on InvestFeed: https://www.investfeed.com/CryptoCrow
+MoonRunner on Twitter: https://twitter.com/MoonRunnerIO
+MoonRunner on Telegram: https://t.me/moonrunnerio
+Invest In ICO's FB Group: https://www.facebook.com/groups/ICOinvestors/
