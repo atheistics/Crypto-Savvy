@@ -1,7 +1,7 @@
 # Crypto-Savvy
 Crypto Savvy PT Assist
 
-                    I AM NOT A FINANCIAL ADVISOR! DO NOT LISTEN TO ME!
+                    NOT A FINANCIAL ADVISOR! DO NOT LISTEN TO ME!
 
 ########################################################################################
 ###                       CRYPTO SAVVY PROFIT TRAILER BOT SETTINGS                   ###
@@ -15,4 +15,4 @@ Crypto Savvy PT Assist
 ########################################################################################
 ########################################################################################
                     
-                     I AM NOT A FINANCIAL ADVISOR! DO NOT LISTEN TO ME!
+                    NOT A FINANCIAL ADVISOR! DO NOT LISTEN TO ME!
